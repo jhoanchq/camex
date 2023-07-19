@@ -10,7 +10,7 @@ userForm.addEventListener('submit', (event) =>{
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
     registrarUsuario(name, email,password);
-    userForm.reset();
+    userForm.reset(); 
 })
 
 function registrarUsuario (name,email,password){
